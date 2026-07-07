@@ -1,0 +1,416 @@
+/* 
+ Theme Name:     lockguard-divi-child-theme
+ Author:         Mark Hendriksen
+ Author URI:     https://markhendriksen.com
+ Template:       Divi
+ Version:        1.0
+ Description:    A Divi Child Theme 
+*/ 
+outline_border_red
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+
+/* ###### CHANGE COLORS ###### */
+
+/* ##### Stars top header ##### */
+.star_rating .fa-star {
+	color:#c12530;
+}
+
+/* ##### Current and hover menu items ##### */
+.et_pb_column .custom_menu.et_pb_menu .nav li ul.sub-menu li.current-menu-item a,
+.custom_menu.et_pb_menu .nav li ul.sub-menu li a:hover {
+    color: #fff !important;
+	background-color: #f27422 !important;
+}
+
+/* ##### White outline border ##### */
+.outline_border_white {
+	outline: 1px solid #ffffff;
+}
+
+/* ##### Red outline border ##### */
+.outline_border_red {
+	outline: 1px solid #F27422;
+}
+
+/* ##### Red dashed outline border for discounts ##### */
+.discount_border {
+	outline: 5px dashed #F27422;	
+}
+
+/* ##### White outline button border ##### */
+.button_outline_white {
+	outline: 1px solid #ffffff;
+}
+
+/* ### Slide-in close cross icon color ### */
+.close_form_icon_2 .fa-times-circle {
+	color: #ffffff !important;
+}
+
+/* ##### Sidebar widget bg and title color ##### */
+.et_pb_widget h4.widgettitle {
+	background-color: #c12530;
+    color: #fff;
+}
+
+/* ##### Sidebar widget bg color ##### */
+.et_pb_widget ul {
+	background-color: #f5f5f5;
+}
+
+/* ##### Sidebar search widget ##### */
+.widget_search input#searchsubmit {
+    color: #fff;
+}
+
+.widget_search #searchsubmit {
+	background-color: #c1252f;
+}
+
+/* ####### Services menu text color ####### */
+.services_menu_sidebar .widget_nav_menu ul li a {
+    color: #fff !important;	
+}
+
+/* ####### Services menu border color ####### */
+.services_menu_sidebar .widget_nav_menu ul li {
+	border-bottom: 1px solid #fff;	
+}
+
+/* ####### Services menu current and hover items ####### */
+.services_menu_sidebar .widget_nav_menu ul li.current-menu-item,
+.services_menu_sidebar .widget_nav_menu ul li:hover {
+    background-color: #750c1b;	
+}
+
+/* ####### Services menu bg color ####### */
+.services_menu_sidebar .widget_nav_menu ul {
+    background-color: #c12530;
+}
+
+/* ########## END COLORS ########### */
+
+/* ########## GENERAL ########### */
+
+@media (min-width: 981px) and (max-width: 1400px) {
+.et_pb_row.row_width_95 {
+	max-width: 95%!important;
+    width: 95%!important;		
+}}
+
+/* ########## MENU ########### */
+
+.custom_menu.et_pb_fullwidth_menu .et-menu>li, .et_pb_menu .et-menu>li {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* ########## DROPDOWN MENU ########### */
+
+.custom_menu .nav li li a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+	font-size: 14px !important;
+	padding: 10px 20px !important;
+}
+
+.custom_menu .nav li li  {
+	padding: 0px !important;
+}
+
+.custom_menu .nav ul.sub-menu {
+	padding: 0px !important;
+}
+
+.custom_menu .nav li li:last-child a {
+    border-bottom: 0px solid rgba(255, 255, 255, 0.35);
+}
+
+.custom_menu .et-menu li li a {
+    width: 240px !important;
+}
+
+.et_pb_column .custom_menu.et_pb_menu .nav li ul.sub-menu li.current-menu-item a,
+.custom_menu.et_pb_menu .nav li ul.sub-menu li a:hover {
+	opacity:1 !important;
+}
+
+.custom_menu.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li>a {
+    padding-bottom: 22px;
+}
+
+
+/* ########## HOME PAGE ########### */
+
+.blurb_home_3 .et_pb_main_blurb_image img {
+	margin-left: -5px;
+}
+
+.blurb_home_4 .et_pb_main_blurb_image img {
+	margin-left: -11px;
+}
+
+@media (min-width: 480px) {
+.blurb_footer .et_pb_blurb_container {
+	padding-left: 50px !important;
+}}
+
+@media (max-width: 479px) {
+.blurb_footer .et_pb_blurb_container {
+	padding-left: 25px !important;
+}}
+
+.outline_border_white {
+    outline-offset: -20px;
+}
+
+.outline_border_red {
+    outline-offset: -20px;
+}
+
+.testimonial_lockguard .fa-quote-left {
+	font-size: 30px;
+}
+
+.discount_border {
+    outline-offset: -20px;	
+}
+
+.button_outline_white {
+    outline-offset: -4px;
+}
+
+/* ########## ABOUT US PAGE ########### */
+
+.redbox_cta .redbox_cta_number {
+	font-size: 40px !important;	
+}
+
+@media (max-width: 479px) {
+.redbox_cta .redbox_cta_number {
+	font-size: 26px !important;	
+}}
+
+@media (min-width: 981px) and (max-width: 1300px) {
+.redbox_cta {
+	font-size: 20px !important;			
+}
+
+.redbox_cta .redbox_cta_number {
+	font-size: 30px !important;	
+}}
+
+@media (min-width: 981px) and (max-width: 1400px) {
+.wcu_blurb .et_pb_main_blurb_image .et_pb_image_wrap {
+    width: 50px !important;	
+}
+
+.wcu_blurb.et_pb_blurb .et_pb_module_header {
+    margin-top: 5px !important;
+    padding-left: 5px!important;
+	font-size: 20px !important;
+}}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+.wcu_blurb .et_pb_main_blurb_image .et_pb_image_wrap {
+    width: 60px !important;	
+}
+
+.wcu_blurb.et_pb_blurb .et_pb_module_header {
+    margin-top: 5px !important;
+    padding-left: 5px!important;
+	font-size: 26px !important;
+}}
+
+/* ########## CONTACT PAGE ########### */
+
+.et_pb_gutters1 .et_pb_column_1_4.contact_column_2 {
+	width: 18%;
+}
+
+.et_pb_gutters1 .et_pb_column_1_4.contact_column_3 {
+	width: 32%;
+}
+
+@media (min-width: 981px) and (max-width: 1400px) {
+.contact_column_2 {
+	padding: 50px 25px !important;		
+}
+
+.et_pb_gutters1 .et_pb_column_1_4.contact_column_2 {
+	width: 23%;
+}
+
+.et_pb_gutters1 .et_pb_column_1_4.contact_column_3 {
+	width: 27%;
+}}
+
+@media (min-width: 1401px) and (max-width: 1820px) {
+.contact_column_2 {
+	padding: 50px 35px !important;		
+}
+	
+.et_pb_gutters1 .et_pb_column_1_4.contact_column_2 {
+	width: 21%;
+}
+
+.et_pb_gutters1 .et_pb_column_1_4.contact_column_3 {
+	width: 29%;
+}}
+
+/* ####### SLIDE-IN ####### */
+
+.slide_in_2_section {
+	position: fixed !important;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9999999;
+	transform: translateY(100%);
+	transition: all .4s ease-in-out,width .2s ease-in-out,top .4s ease-in-out !important;
+}
+
+.show_form_2 {
+	transform: translateY(-15px);
+}
+
+.close_form_icon_2 .fa-times-circle {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.et_pb_section.slide_in_2_label_section {
+	position: fixed !important;
+    right: 0px !important;
+    bottom: 0px !important;
+	left:unset;
+	top: unset;
+    z-index: 9999999;	
+}
+
+.slide_in_2_label_section {
+	transform: scale(1);
+	transition: 0.4s ease-in-out;
+	transition-delay: 0.2s;
+}
+
+.hide_label_slide_in_2 {
+	transform: scale(0);
+}
+
+.slide_in_1_contact_form .et_contact_bottom_container {
+	width: 100%;	
+}
+
+.slide_in_1_contact_form .et_pb_button {
+	width: 97%;
+    margin-left: 3%;
+}
+
+.slide_in_1_contact_form .et_pb_button:hover {
+    padding: .3em .1em .3em .1em !important;
+}
+
+@media (max-width: 980px) {
+.label_slide_in_column_1 {
+	width: 70% !important;
+	margin-right: 0%;
+	margin-bottom: 0px;
+}
+
+.label_slide_in_column_2 {
+	width: 20% !important;
+	margin-bottom: 10px;
+}
+
+.slide_in_column_1 {
+	width: 80% !important;	
+	margin-bottom: 0px;
+}
+
+.slide_in_column_2 {
+	width: 20% !important;	
+	margin-bottom: 0px;
+}
+
+.show_form_2 {
+	transform: translateY(0px);
+}
+
+.slide_in_2_section {
+	width: 100%;
+}}
+
+@media (max-width: 479px) {
+.slide_in_2 {
+	transform: scale(0.7);
+	transform-origin: bottom right;
+	margin-top: 13px!important;
+    margin-right: -11px !important;
+}
+
+.label_close_icon {
+    top: -6px !important;
+    right: -23px !important;
+}}
+
+/* ####### SLIDE-IN 2 VISUAL BUILDER ####### */
+
+.et-tb .slide_in_2_label_section {
+	position: fixed!important;
+	top: unset !important;
+	bottom: 0px !important;
+    right: 0px;
+}
+
+.et-tb .slide_in_2_section {
+	position: fixed!important;
+	transform: translateY(-100px);
+	bottom: 0px !important;
+    right: 0px !important;
+	left: unset !important;
+}
+
+.hide_label_and_slide_in_2 {
+	transform: scale(0);
+}
+
+
+/* ####### SERVICES MENU ####### */
+
+.services_menu_sidebar .widget_nav_menu ul li a {
+	padding: 20px 30px;
+	display:block;
+}
+
+.services_menu_sidebar .widget_nav_menu ul li {
+    padding: 0px!important;	
+	margin-bottom: 0em !important;
+}
+
+.services_menu_sidebar .widget_nav_menu ul li:last-child {
+	border-bottom: 0px solid #fff;	
+}
+
+.services_menu_sidebar .widget_nav_menu ul {
+	padding:0px !important;
+}
+
+.services_menu_sidebar .widget_nav_menu {
+	margin-bottom: 0px !important;
+}
+
+@media (max-width: 980px) {
+.services_menu_sidebar .widget_nav_menu {
+    width: 100% !important;
+}}
+
+/* ##### SIDEBAR ##### */
+
+.et_pb_widget h4.widgettitle {
+    padding: 10px 20px;
+}
+
+.et_pb_widget ul {
+	padding: 20px 20px 10px 20px !important;
+}
