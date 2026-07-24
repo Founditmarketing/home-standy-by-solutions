@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-json/
+Disallow: /feed/
+Disallow: /xmlrpc.html
+Disallow: /index0368.html
+Disallow: /index21de.html
+Disallow: /index2223.html
+Disallow: /index2ea8.html
+Disallow: /index3e8c.html
+Disallow: /index4591.html
+Disallow: /index56f2.html
+Disallow: /index5f87.html
+Disallow: /index73c0.html
+Disallow: /index886c.html
+Disallow: /index9036.html
+Disallow: /indexaac4.html
+Disallow: /indexadf1.html
+Disallow: /indexb127.html
+Disallow: /indexb6dd.html
+Disallow: /indexb9aa.html
+Disallow: /indexe05a.html
+Disallow: /indexf3ac.html
+
+Sitemap: https://homestandbysolutions.net/sitemap.xml
